@@ -1,0 +1,430 @@
+.carousel-caption {
+    color: #000;
+    position: absolute;
+    text-align:left;
+    top: 35vh;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.box {
+position: relative;
+text-align:left;
+}
+
+.carousel-caption-1 {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+}
+
+.carousel-apps {
+   
+    z-index: -2;
+    margin: 0;
+    padding: 0;
+}
+
+.posa-a {
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+
+.darked {
+    color: rgb(77, 77, 255);
+    font-weight: bold;
+    border: black 2px solid;
+    letter-spacing: 4px;
+    padding: 5px 15px;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #6978A7;}
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #6978A770; padding: 10px;
+    }
+
+.theme-logo {
+    text-transform: uppercase;
+    color:#0543ff ;
+    font-weight: 700px;
+    font-size: 25px;
+    padding: 10px;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.bigbukva {text-transform: uppercase;}
+.razmer1 {text-align: left;
+width: 400px;}
+
+.button2 {border-radius: 30px; margin: 10px 5px 5px 0px; height: 45px; width: 180px;}
+
+.remark {
+    color: blueviolet;
+    font-weight: 800px;
+
+}
+
+.theme {
+    color: rgb(46, 213, 255);
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 800;
+    color: rgb(0, 3, 158);
+    font-size: 2rem;
+}
+
+h3, h4 {
+    color: rgb(0, 3, 158);
+    font-weight: 500;
+}
+
+h4 {
+    color: rgb(0, 3, 158);
+    font-weight: 500;
+    margin: 25px 5px 25px 5px;
+}
+
+.feature {
+    text-align: center;
+    
+}
+
+.feature-btm {
+    border-radius: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(184, 184, 184);
+    height: 45px;
+    width: 45px;
+    border: none;
+    font-weight: 900;
+   
+   
+}
+
+.feature-btm:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 20, 220);
+    transition: 0.5s;
+}
+
+
+/* .feature-btm2 {
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 20, 220);
+    height: 45px;
+    width: 45px;
+    border: none;
+    text-align: center;
+    box-shadow:3px 4px 5px 2px rgb(160, 160, 160);
+} */
+/* возмооооожно это из за этого контейнера лол */
+.conteiner {
+    display: grid;
+   
+    
+}
+
+.shad {
+    box-shadow: 0px 2px 4px rgba(100, 111, 122, 0.52);
+    padding: 4rem 3rem;
+    margin: 2rem 1rem  0px 2rem;
+}
+
+.agency {
+    background-color: rgb(10, 0, 153);
+    color: white;
+}
+
+.agency h2 {
+    color: white;
+}
+
+.otstup {
+
+    margin: 7rem auto 0px 0px;
+    padding: 50px;
+}
+
+.static-case {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.start {
+    background-color: rgba(179, 193, 255, 0.534);
+}
+
+.statistic-box:hover {
+    /* transition: 0.5s; */
+    background: url(/LOlo/img/active-static.jpg) repeat center;
+    background-image:  repeating-linear-gradient(45deg, white #aaa  #fff 7px) 30;
+    
+    }
+
+.statistic-box {
+    padding-top: 50px;
+    height: 200px;
+    width: 200px;
+    border: 30px solid rgb(255, 255, 255);
+    }
+
+.all-block{
+    margin-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.statistic {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    border: 30px solid rgb(255, 255, 255);
+  }
+
+.centered {
+    text-align: center;
+}
+
+.portfolio {
+    background: url(/LOlo/img/potfolio-frame.jpg) repeat center;
+
+}
+
+.mun-portfolio ul li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 12px 20px;
+    margin: 0px;
+    
+}
+
+.mun-portfolio{
+    border: 3px solid #000;
+    border-radius: 30px;
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+}
+
+.mun-portfolio ul li{
+    color: rgba(0, 0, 0, 0.178);
+
+}
+.mun-portfolio ul li:hover{
+    color: #000;
+border-bottom: solid blue 4px;
+padding: 12px 20px 8px;
+}
+
+.mun-portfolio ul {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mun-portfolio {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+
+
+.box-thumbnail {
+    background-color: rgba(18, 18, 51, 0.822);
+    color: #fff;
+    padding: 10% 13%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* opacity: 0;     */
+    display: none;
+  }
+
+  .th:hover .box-thumbnail {
+    display: block;
+
+  }
+
+  .box-thumbnail:hover {
+    /* opacity: 1;     */
+    display: block;
+
+  }
+  
+  div .th {
+    padding: 0;
+    position: relative;
+  }
+  
+  .th img {
+    width: 100%;
+  }
+  .text-thumbnail {
+    text-transform: uppercase;
+    color: #7087BD;
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+  }
+  
+  .box-thumbnail h4 {
+    color: #fff;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .box-thumbnail button {  
+    background-color: transparent;
+    border: solid 1px #7087BD;
+    padding: 2% 8%;
+    color: #d4dae7;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 13%;
+  }
+  
+ .coloraized {
+     background-color: rgb(177, 226, 255);
+ } 
+
+ .person-png {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+
+ }
+
+ .margin-for-picture {
+    margin-top: 190;
+ }
+
+ .person-box {
+    position: relative;
+    bottom: 0;
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+
+    
+ }
+
+ .free-bees {
+     background-color: #0B0F57;
+    
+     width: 100%;
+     padding: 50px;
+     position: relative;
+ }
+
+ .free-bees-text {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto; 
+    padding-top:25px;
+    color: rgba(255, 240, 240, 0.726);
+ }
+
+ .person-3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: -100px;
+    
+
+ } 
+
+.testa {
+
+    position: relative;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.testa-2 {
+    margin: 0 10px;
+    
+    border: solid white;
+    border-radius: 100%;
+    
+}
+
+.free {
+    padding-top: 20%;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+
+}
+
+.btn-olan {
+    border-radius: 20px; border: 3px solid
+}
+
+.btn-olan:hover {
+    background-color: rgb(96, 3, 245);
+    color: #fff;
+}
+
+.planes-xd {
+    background-color: #0F145A;
+    height: 500px;
+}
+
+
+
+.sponsor-1 {
+    border: 2px rgba(110, 110, 110, 0.082) solid;
+    border-style: none solid solid none;  
+}
+
+.sponsor-2 {
+    border: 2px rgba(110, 110, 110, 0.082) solid;
+    border-style: none none solid none;  
+}
+
+.sponsor-3 {
+    border: 2px rgba(110, 110, 110, 0.082) solid;
+    border-style: none none solid solid;  
+}
+
+.sponsor-4 {
+    border: 2px rgba(110, 110, 110, 0.082) solid;
+    border-style: none solid none none ;  
+}
+
+.sponsor-5 {
+    border: 2px rgba(110, 110, 110, 0.082) solid;
+    border-style: none none none none ;  
+}
+
+.sponsor-6 {
+    border: 2px rgba(110, 110, 110, 0.082) solid;
+    border-style: none none none solid ;  
+}
+
+
+
