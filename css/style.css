@@ -132,7 +132,7 @@ h4 {
 }
 
 .agency {
-    background-color: rgb(10, 0, 153);
+    background-color: rgb(7, 0, 104);
     color: white;
 }
 
@@ -152,21 +152,22 @@ h4 {
 }
 
 .start {
-    background-color: rgba(179, 193, 255, 0.534);
+    background-color: rgb(239, 242, 255);
 }
 
-.statistic-box:hover {
-    /* transition: 0.5s; */
-    background: url(/LOlo/img/active-static.jpg) repeat center;
-    background-image:  repeating-linear-gradient(45deg, white #aaa  #fff 7px) 30;
-    
-    }
+
+.statistic:hover {
+        border-image: repeating-linear-gradient(45deg, #fff, #aaa, #fff 7px) 30;
+        background:  repeat center url("../img/potfolio-frame.jpg");
+      }
+
+
 
 .statistic-box {
     padding-top: 50px;
     height: 200px;
     width: 200px;
-    border: 30px solid rgb(255, 255, 255);
+    /* border: 30px solid rgb(255, 255, 255); */
     }
 
 .all-block{
@@ -179,7 +180,7 @@ h4 {
     display: flex;
     align-items: center;
     height: 300px;
-    border: 30px solid rgb(255, 255, 255);
+    border: 30px solid  rgb(239, 242, 255);
   }
 
 .centered {
@@ -187,50 +188,31 @@ h4 {
 }
 
 .portfolio {
-    background: url(/LOlo/img/potfolio-frame.jpg) repeat center;
+    background: repeat center url("../img/potfolio-frame.jpg");
+  }
 
-}
-
-.mun-portfolio ul li{
-    display:inline-block;
-    list-style-type: none;
+.mun-portfolio ul li {
+    list-style-type: none; 
+    display: inline-block;
     padding: 12px 20px;
-    margin: 0px;
-    
-}
-
-.mun-portfolio{
-    border: 3px solid #000;
-    border-radius: 30px;
-    margin: 0px;
-    padding: 0px;
-    color: gray;
-}
-
-.mun-portfolio ul li{
-    color: rgba(0, 0, 0, 0.178);
-
-}
-.mun-portfolio ul li:hover{
-    color: #000;
-border-bottom: solid blue 4px;
-padding: 12px 20px 8px;
-}
-
-.mun-portfolio ul {
+    color: rgb(155, 155, 155);
+    font-weight: bold;
+    }
+  
+  .mun-portfolio ul {
     display: inline-block;
-    padding: 0px;
-    margin: 0px;
-}
-
-.mun-portfolio {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-
-
-
+    border: rgb(117, 117, 117) solid 2px;
+    border-radius: 2rem;
+    margin: 0;
+    padding: 0 40px;
+  }
+  
+  .mun-portfolio ul li:hover {
+  padding: 12px 20px 8px;
+  color:black;
+  border-bottom: solid #0380f9 4px;
+  }
+  
 .box-thumbnail {
     background-color: rgba(18, 18, 51, 0.822);
     color: #fff;
@@ -436,6 +418,22 @@ padding: 12px 20px 8px;
 .margin-0 {
     margin: 0;
 }
+
+.brand {
+    height: 100%;
+
+    box-shadow: 0px 2px 4px rgba(100, 111, 122, 0.52);
+}
+
+.our-service {
+    padding-top: 5%;
+}
+
+.a {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
 
 
 
